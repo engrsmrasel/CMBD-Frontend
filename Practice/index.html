@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice HTML</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 style="text-align: center; text-decoration: underline;">Practice HTML</h1>
+
+    <h2>HTML Form</h2>
+
+    <form >
+        <fieldset>
+            <legend>HTML form practicing:</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="e.g.: enter your first name here">
+        <br>
+        <br>
+        <label for="flname">Last Name:</label>
+        <input type="text" id="lname" placeholder="e.g.: enter your last  name here">
+        <br>
+        <br>
+        <h2>Radio Buttons: Choose your favourite language</h2>
+        <input type="radio" id="html" name="language">
+        <label for="html">HTML</label>
+        <br>
+        <br>
+        <input type="radio" id="css" name="language">
+        <label for="css">CSS</label>
+        <br>
+        <br>
+        <input type="radio" id="js" name="language">
+        <label for="js">HTML</label>
+        <br>
+        <br>
+        <h2>Checkbox : Choose your favourite car</h2>
+        <input type="checkbox" id="bmw" name="car">
+        <label for="bmw">BMW</label>
+        <br>
+        <br>
+        <input type="checkbox" id="parado" name="car">
+        <label for="parado">Parado</label>
+        <br>
+        <br>
+        <input type="checkbox" id="pajero" name="car">
+        <label for="pajero">Pajero</label>
+        <br>
+        <br>
+
+        <h2>Dropdown List</h2>
+
+        <label for="fruits">Choose your favourite fruit :</label>
+        <select name="fruit" id="fruits" size="3" multiple>
+            <option value="">--choose your fav fruits--</option>
+            <option value="">Pineapple</option>
+            <option value="">Litci</option>
+            <option value="">Banana</option>
+
+            
+        </select>
+        <br>
+        <br>
+
+        <label for="comments">Your Comments::</label>
+        <br>
+        <textarea name="comments" id="comments" placeholder="hello........" style="width: 400px; height: 200px;"></textarea>
+        <br>
+        <br>
+        <h2>DataList Element:</h2>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Google"></option>
+            <option value="Safari"></option>
+            <option value="Opera"></option>
+            <option value="Chrome"></option>
+
+        </datalist>
+        <br>
+        <br>
+        <label for="pass" >Enter Your Password:</label>
+        <input type="password" id="pass">
+
+        <br>
+        <br>
+        <label for="color">Choose your favourite color :</label>
+        <input type="color" id="color" value="#ff0000">
+        <br>
+        <br>
+        <label for="bday">Your Birthday:</label>
+        <input type="datetime-local" id="bday">
+        <br>
+        <br>
+        <label for="min">Age min</label>
+        <input type="date" id="min" min="2000-02-01">
+        <br>
+        <br>
+        <label for="max">Age Max</label>
+        <input type="date" id="max" max="2020-02-01">
+        <br>
+        <br>
+        <label for="email">Enter your Email Here:</label>
+        <input type="email" id="email" placeholder="alishba@gmail.com">
+        <br>
+        <br>
+        <label for="image">Upload your passport image:</label>
+        <input type="image" src="S M Rasel.jpg" width="200px" height="200px">
+        <br>
+        <br>
+        <label for="file">Upload your file here:</label>
+        <input type="file" id="file" multiple>
+        <br>
+        <br>
+
+        <label for="month">Choose your Birth Month :</label>
+        <input type="month" id="month">
+        <br>
+
+        <label for="number">Enter number between 1 & 5:</label>
+        <input type="number" id="number" min="1" max="5">
+        <br>
+        <br>
+        <label for="week">select your travelling week:</label>
+        <input type="week" id="week">
+        <br>
+        <br>
+        <label for="time">Mention your form submitting time:</label>
+        <input type="time" id="time">
+        <br>
+        <br>
+
+        <label for="volume">Select your volume lavel: </label>
+        <input type="range" id="volume" min="10" max="95">
+        <br>
+        <br>
+
+
+
+
+
+        <input type="submit" value="Submit your form"> 
+        
+        <input type="reset" value="RESET">
+        
+        </fieldset>
+    </form>
+
+    <h2 style="background-color: aqua; color: brown; text-align: center;" >Bangladesh is a beautiful country</h2>
+    <h2>CSS Flexbox</h2>
+
+    <div class="flex-container1">
+        <div>
+            <h3>Container # 1</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 2</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 3</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+
+        <div>
+            <h3>Container # 4</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 5</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 6</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+    </div>
+
+    <h2> The Flex container property:The Flex direction, flex wrap, flex flow, Justify content, Allign item, Allign Content</h2>
+
+    <h3>The Flex Direction property : Row, Row-reverse, column , column Reverse</h3>
+
+    <div class="flex-container2">
+        <div>
+            <h3>Container # 1</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 2</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 3</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+
+        <div>
+            <h3>Container # 4</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 5</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 6</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 7</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 8</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+    </div>
+
+    <h2>The Justify Content property : center, flex start, flex end,space around, space between</h2>
+    <div class="flex-container4">
+        <div>
+            <h3>Container # 1</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 2</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 3</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+
+       
+    </div>
+
+    <h2> Perfect centering of an Item : It uses Justify content to center & alling item to center</h2>
+    <div class="flex-container5">
+        <div>
+            <h3>Container # 1</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+    </div>
+
+    <h2>The Flex Item Property : Order , flex grow, flex basis, flex shrink, flex, allign self</h2>
+    <div class="flex-container6">
+        <div style="order: 2;flex-grow: 1;">
+            <h3>Container # 1</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div style="order: 1;flex-grow: 1.5;">
+            <h3>Container # 2</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div style="order: 4;flex-basis: 450px;">
+            <h3>Container # 3</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+
+        <div style="order: 3;flex-grow: 1;">
+            <h3>Container # 4</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+       
+    </div>
+
+    <div class="flex-container7">
+        <div style="align-self: flex-start;">
+            <h3>Container # 1</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 2</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div style="align-self: center;">
+            <h3>Container # 3</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+
+        <div style="flex-shrink: 0;">
+            <h3>Container # 4</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div style="align-self: flex-end;">
+            <h3>Container # 5</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+        <div>
+            <h3>Container # 6</h3>
+            <p>Bangladesh is a beautiful country, Dhaka is her capital, Itsmainly a Muslim country,but different religion people also available here </p>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div style="background-color: rgb(223, 223, 30);height: 300px;border: 3px solid green;">
+        <div style="display: flex; justify-content: center; gap: 30px;align-items:center; height: 300px;flex-wrap: wrap;" > 
+            <div style="background-color: blueviolet;width: 120px;height: 100px;display: flex;justify-content: center;align-items: center;flex-basis: 200px;order: 3;flex-shrink: 0;">Box 1</div>
+            <div style="background-color: brown;width: 120px;height: 100px;display: flex;justify-content: center;align-items: center;flex-basis: 400px;order: 2;align-self: flex-end;">Box 2</div>
+            <div style="background-color:rgb(255, 0, 123);width: 120px;height: 100px;display: flex;justify-content: center;align-items: center;flex-basis: 200px;order: 1;">Box 3</div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+.flex-container1
+{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid yellow;
+}
+
+.flex-container1 div
+{
+    background-color: brown;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.flex-container2
+{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    border: 3px solid yellow;
+}
+
+.flex-container2 div
+{
+    background-color: brown;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.flex-container3
+{
+    background-color: blueviolet;
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid yellow;
+}
+
+.flex-container3 div
+{
+    background-color: brown;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.flex-container4
+{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid yellow;
+    height: 400px;
+    align-items: stretch;
+}
+
+.flex-container4 div
+{
+    background-color: brown;
+    width: 150px;
+    /* height: 200px; */
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;    
+}
+
+.flex-container5
+{
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    justify-content: center;
+    border: 3px solid yellow;
+    height: 400px;
+    align-items: center;
+}
+
+.flex-container5 div
+{
+    background-color: brown;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;    
+}
+
+.flex-container6
+{
+    background-color: rgb(223, 226, 43);
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid yellow;
+}
+
+.flex-container6 div
+{
+    background-color: brown;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.flex-container7
+{
+    background-color: aquamarine;
+    display: flex;
+    height: 500px;
+    /* align-items: stretch; */
+}
+.flex-container7 div
+{
+    background-color: blueviolet;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+
+   
+
+}
+
+@media (max-width:1200px)
+{
+    .flex-container7
+    {
+        background-color: brown;
+        flex-direction: column;
+    }
+    .flex-container7 div
+    {
+        background-color: yellowgreen
+    };
+}

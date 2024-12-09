@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h2>HTML Forms</h2>
+
+    <form>
+
+        <fieldset>
+            <legend style="color: blue;">User Registration</legend>
+            <label for="first name">First Name: </label>
+            <input type="text" id="first name" placeholder="Enter your first Name">
+            <br>
+            <br>
+    
+            <label for="last name">Last Name: </label>
+            <input type="text" id="last name" placeholder="Enter your last Name">
+    
+            <br>
+            <br>
+            <label for="email">Email: </label> <span>*</span>
+            <input type="email" id="email" placeholder="e,g. rasel@gmail.com" required>
+                <br>
+                <br>
+            <label for="number">Cell Number: </label>
+            <input type="number" id="number" placeholder="Your mobile nmber">
+            <br>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <br>
+            <br>
+            <!-- dropdown menu -->
+
+            <label for="country">Choose Country: </label>
+            <select name="" id="country">
+
+                <option value="">--Select Country--</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="canada">Canada</option>  
+
+            </select>
+
+            <br>
+            <br>
+
+
+            <label for="">Gender:</label>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender">
+            <label for="others">Others</label>
+
+            <br>
+            <br>
+
+            <label for="date">Date of Birth: </label>
+            <input type="date" id="date">
+
+            <br>
+            <br>
+
+            <label for="upload">Upload File: </label>
+            <input type="file" id="upload" multiple>
+
+            <br>
+            <br>
+            <label for="comments">Your Comments: </label>
+            <br>
+            <textarea name="" id="comments" cols="20" rows="10" placeholder="hi...."></textarea>
+        
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="terms" required>
+            <label for="terms">Agree to Terms & Condition</label> <span style="color: brown;">*</span>
+            <br>
+            <br>
+            <input type="reset">
+            <br>
+            <br>
+            <input type="color">
+            <br>
+            <br>
+            
+            <input type="submit" value="Submit Form">
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
